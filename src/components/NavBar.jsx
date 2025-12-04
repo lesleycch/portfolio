@@ -1,4 +1,4 @@
-import resumePdf from "../assets/pdf/LesleyChang_resume.pdf"
+import resumePdf from "../assets/pdf/LesleyChang_Resume.pdf"
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },
