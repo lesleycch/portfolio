@@ -1,26 +1,30 @@
 import { useEffect, useState } from "react";
 import './App.css'
-import { Navbar } from "./components/NavBar.jsx";
+import Navbar from "./components/NavBar";
 import { Hero } from "./components/Hero";
 
 function App() {
-  const [isLoaded, setIsLoaded] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    setIsLoaded(true);
+    function handleScroll() {
+      setScrolled(window.scrollY > 50);
+    }
+
+    window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
-    <div className={`app ${isLoaded ? "loaded" : ""}`}>
-      <Navbar />
+    <div className="min-h-screen overflow-hidden">
+      <Navbar scrolled={scrolled} />
 
       <Hero />
 
-
       <footer className="footer">
-          <small class="text-muted mb-2">
-    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i> by <strong>Lesley Chang</strong>
-  </small>
+        <small className="text-muted mb-2">
+          <i  className="fas fa-code"></i> with <i className="fas fa-heart"></i> by <strong>Lesley Chang</strong>
+        </small>
       </footer>
     </div>
   );

@@ -21,6 +21,7 @@ body {
   line-height: 1.6;
   color: var(--text-color);
   background: var(--background);
+  font-weight: 500;
 }
 
 .app {
@@ -37,18 +38,7 @@ body {
 }
 
 .navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.5rem 5%;
   background: var(--nav-bg);
-  backdrop-filter: blur(10px);
-  z-index: 1000;
-  border-bottom: 1px solid var(--card-border);
 }
 
 .logo {
@@ -57,8 +47,8 @@ body {
 }
 
 .nav-links {
-  display: flex;
-  gap: 2rem;
+  /* display: flex; */
+  /* gap: 2rem; */
   list-style: none;
 }
 
@@ -149,10 +139,10 @@ body {
 }
 
 
-.social-links {
+/* .social-links {
   display: block;
   gap: 1.5rem;
-}
+} */
 
 .social-links a {
   color: #666666;
