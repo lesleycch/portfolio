@@ -19,15 +19,15 @@ export default function Navbar({ scrolled }) {
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-14 sm:h-16 md:h-20">
           <div className="logo flex items-center space-x-1 group">
-          <Link to="/" className="">Lesley Chang</Link>
+          <Link to="/" onClick={() => setMobileMenuIsOpen(false)}>Lesley Chang</Link>
           </div>
 
           {/* Nav Links */}
           <div className="hidden md:flex items-center space-x-6 lg:space-x-8 font-semibold nav-links">
-            {/* <Link to="/projects" className="">Projects</Link> */}
+            <Link to="/projects" className="">Projects</Link>
             <a href={resumePdf} target="_blank" rel="noopener noreferrer" className="">Resume</a>
           </div>
 
@@ -47,7 +47,7 @@ export default function Navbar({ scrolled }) {
       {mobileMenuIsOpen && (
         <div className="md:hidden bg-neutral-50/60 animate-in slide-in-from-top duration-300">
           <div className="px-6 py-6 sm:py-6 space-y-3 sm:space-y-4 text-lg font-semibold nav-links">
-            {/* <Link to="/projects" className="block">Projects</Link> */}
+            <Link to="/projects" className="block" onClick={() => setMobileMenuIsOpen(false)}>Projects</Link>
             <a href={resumePdf} target="_blank" rel="noopener noreferrer" className="block" onClick={() => setMobileMenuIsOpen(false)}>Resume</a>
           </div>
         </div>
