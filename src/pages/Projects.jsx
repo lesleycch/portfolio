@@ -15,7 +15,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section className="projects">
+    <section className="px-10 md:px-16 pt-6">
       {/* Breadcrumbs */}
       <div className="text-2xl font-bold mb-10">
         <Breadcrumbs />

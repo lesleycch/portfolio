@@ -29,6 +29,7 @@ export default function Navbar({ scrolled }) {
           <div className="hidden md:flex items-center space-x-6 lg:space-x-8 font-semibold nav-links">
             <Link to="/projects" className="">Projects</Link>
             <a href={resumePdf} target="_blank" rel="noopener noreferrer" className="">Resume</a>
+            <Link to="/about" className="">About Me </Link>
           </div>
 
           <button
@@ -49,6 +50,7 @@ export default function Navbar({ scrolled }) {
           <div className="px-6 py-6 sm:py-6 space-y-3 sm:space-y-4 text-lg font-semibold nav-links">
             <Link to="/projects" className="block" onClick={() => setMobileMenuIsOpen(false)}>Projects</Link>
             <a href={resumePdf} target="_blank" rel="noopener noreferrer" className="block" onClick={() => setMobileMenuIsOpen(false)}>Resume</a>
+            <Link to="/about" className="block" onClick={() => setMobileMenuIsOpen(false)}>About Me </Link>
           </div>
         </div>
       )}

@@ -109,24 +109,9 @@ body {
   border: 1px solid var(--secondary-color);
 }
 
-.glitch {
-  font-size: 3.5rem;
-  font-weight: 800;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-  position: relative;
-  margin-bottom: 1rem;
-  line-height: 1.1;
-}
-
-.hero-subtitle {
-  font-size: 1.5rem;
-  color: var(--accent-color);
-  margin-bottom: 1.5rem;
-  font-weight: 600;
-}
 
 .hero-description {
-  font-size: 1.1rem;
+  /* font-size: 1.1rem; */
   line-height: 1.7;
 }
 
@@ -178,6 +163,7 @@ body {
   object-fit: cover;    
 }
 
+
 /* larger screens: allow a bigger image */
 @media (min-width: 768px) {
   .hero-image {
@@ -190,12 +176,6 @@ body {
 }
 
 /* Projects Sections */
-
-.projects {
-  padding: 2rem 4rem 4rem 4rem;
-  background-color: var(--background);
-  /* position: relative; */
-}
 
 .project-grid {
   display: grid;
@@ -305,10 +285,6 @@ body {
   border: 1px solid var(--accent-color);
 }
 
-.projectPMDashboard {
-  padding: 2rem 4rem 4rem 4rem;
-  background-color: var(--background);
-}
 
 .tableauViz {
 display: block;

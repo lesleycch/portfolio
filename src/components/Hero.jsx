@@ -11,7 +11,7 @@ export const Hero = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8, delay: 0.2 }}>
       {/* Intro */}
-      <motion.section className="hero-container flex justify-center flex-wrap mt-2 md:mt-4"
+      <motion.section className="hero-container flex justify-center flex-wrap mt-6 md:mt-4"
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8, delay: 0.4 }}>
@@ -28,7 +28,7 @@ export const Hero = () => {
 
           {/* Social Link */}
           <div className="social-links flex justify-center">
-            <a href="https://www.linkedin.com/in/leschang/" target="_blank">
+            <a href="https://www.linkedin.com/in/leschang" target="_blank">
               <i className="fab fa-linkedin"> </i>
             </a>
             <a href="mailto:lesleycch@gmail.com" className="ml-4"><i className="fas fa-envelope"> </i></a> 
