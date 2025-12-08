@@ -1,8 +1,6 @@
-import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import PMDashboard from "../assets/images/projects/PM_dashboard.png";
 import Breadcrumbs from "../components/Breadcrumbs.jsx";
-
 
 const projects = [
   {

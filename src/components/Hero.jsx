@@ -3,7 +3,6 @@ import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
 import profilePhoto from "../assets/images/profile_pic.png";
 import { motion } from "framer-motion";
 
-
 export const Hero = () => {
   return (
 
@@ -32,6 +31,8 @@ export const Hero = () => {
             <a href="https://www.linkedin.com/in/leschang/" target="_blank">
               <i className="fab fa-linkedin"> </i>
             </a>
+            <a href="mailto:lesleycch@gmail.com" className="ml-4"><i className="fas fa-envelope"> </i></a> 
+            <a href="https://github.com/lesleycch" target="_blank" className="ml-4"><i className="fab fa-github"> </i></a>
           </div>
         </div>
         {/* Desc */}
