@@ -27,12 +27,12 @@ export default function Projects() {
       </div>
       
       {/* Projects */}
-      <div className="project-grid">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-6">
       {projects.map((project, i) => (
         <Link key={i} to={project.link}>
         <div
           key={i}
-          className="project-card max-w-md w-full mx-auto scale-100 hover:scale-101 transition-transform duration-300"
+          className="project-card w-full h-auto object-cover overflow-hidden scale-100 hover:scale-101 transition-transform duration-300 rounded-xl"
         >
      
           <div
