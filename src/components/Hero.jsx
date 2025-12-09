@@ -7,18 +7,19 @@ import pmp from "../assets/images/PMP.png"
 export const Hero = () => {
   return (
 
-    <motion.div className="hero flex flex-col items-center px-10 md:px-16"
+    <motion.div className="mt-0 sm:mt-10 lg:mt-20 px-10 md:px-18 lg:px-30"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8, delay: 0.2 }}>
       {/* Intro */}
-      <motion.section className="hero-container flex justify-center flex-wrap mt-8  sm:mt-0 md:mt-0 lg:mt-0"
+      <motion.section className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 sm:gap-6 lg:gap-4"
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8, delay: 0.4 }}>
+        {/* Image + Social Links */}
         {/* Hero Image */}
-        <div className="mx-12 md:mx-18 lg:mx-20 self-center self-start mt-0 sm:mt-10 lg:mt-30">
-          <div className="hero-image-container">
+        <div className="w-full h-auto object-cover md:pr-12 lg:pr-34">
+          <div className="flex justify-center mt-8 sm:mt-0">
             <img
               src={profilePhoto}
               alt="Lesley Chang"
@@ -26,27 +27,26 @@ export const Hero = () => {
             />
           </div>
 
-          {/* Social Link */}
-          <div className="social-links flex justify-center">
-            <a href="https://www.linkedin.com/in/leschang" target="_blank">
+          {/* Social Links */}
+          <div className="social-links flex justify-center text-stone-500 text-2xl md:text-3xl">
+            <a href="https://www.linkedin.com/in/leschang" target="_blank" className="duration-300 ease-in">
               <i className="fab fa-linkedin"> </i>
             </a>
-            <a href="mailto:lesleycch@gmail.com" className="ml-4"><i className="fas fa-envelope"> </i></a> 
-            <a href="https://github.com/lesleycch" target="_blank" className="ml-4"><i className="fab fa-github"> </i></a>
+            <a href="mailto:lesleycch@gmail.com" className="ml-4 duration-300 ease-in"><i className="fas fa-envelope"> </i></a> 
+            <a href="https://github.com/lesleycch" target="_blank" className="ml-4 duration-300 ease-in"><i className="fab fa-github"> </i></a>
           </div>
         </div>
-        {/* Desc */}
-        <div className="mx-12 md:mx-12 lg:mx-14 mt-8 md:mt-6">
-          <div className="hero-content">
 
-            <div className="hero-description">
+        {/* Desc */}
+        <div className="w-full h-auto object-cover">
+          <div className="text-base/7 flex flex-col justify-center">
               <div className="pb-6">
                 Hi 👋🏻  My name is Lesley Chang. I'm a seasoned <span className="font-semibold underline decoration-wavy decoration-2 underline-offset-4 decoration-cyan-600 hover:decoration-cyan-500">Software Developer</span> and data-driven <span className="font-semibold underline decoration-wavy decoration-2 underline-offset-4 decoration-cyan-600 hover:decoration-cyan-500">PMP®-Certified Project Manager</span> with four years of experience in the tech industry.
 
                 I design, build, and maintain user-centered SaaS products and am passionate about resource coordination, including streamlining work processes and enhancing team productivity.
               </div>
               <div className="flex justify-center pb-6">
-                <img src={pmp} alt="PMP" className="pmp rounded-xl " />
+                <img src={pmp} alt="PMP" className="pmp rounded-xl" />
               </div>
               <div className="pb-6">
                 I'm a T-shaped professional who enjoys learning new technologies and adapting quickly in this rapidly evolving world.
@@ -54,7 +54,6 @@ export const Hero = () => {
               <div className="pb-8">
                 My strength lies in my superpower of empathy: <span className="font-semibold underline decoration-wavy decoration-2 underline-offset-4 decoration-teal-600 hover:decoration-teal-500">I leverage keen observation to uncover hidden needs and translate them into actionable solutions.</span>
               </div>
-
               <div className="pb-6">
                 My experience and personal traits have shaped my capabilities in
                 <ul className="list-disc font-semibold ml-5 mt-2">
@@ -65,15 +64,12 @@ export const Hero = () => {
                   <li>Relationship Management</li>
                 </ul>
               </div>
-
-            </div>
-
           </div>
         </div>
       </motion.section>
 
       {/* Skill Sets */}
-      <motion.section className="code-snippet-container px-10 md:px-18 lg:px-30 mt-8 md:mt-10"
+      <motion.section className="code-snippet-container mt-8 md:mt-10"
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8, delay: 0.4 }}>

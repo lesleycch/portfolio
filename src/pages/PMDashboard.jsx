@@ -24,14 +24,14 @@ export default function PMDashboard() {
     {/* Summary */}
      <div className="">
        <p className="text-lg font-semibold text-black">Summary</p>
-       <p className="font-medium text-gray-600">I designed this interactive Project Management Dashboard using Tableau to visualize essential project metrics, including project types, volume, progress status, budget utilization, and KPIs. This dashboard enables clear, efficient progress communication by turning raw data into intuitive visual insights for faster informed decision-making.</p>
+       <p className="font-medium text-stone-600">I designed this interactive Project Management Dashboard using Tableau to visualize essential project metrics, including project types, volume, progress status, budget utilization, and KPIs. This dashboard enables clear, efficient progress communication by turning raw data into intuitive visual insights for faster informed decision-making.</p>
      </div>
     
     {/* Goal */}
      <div className="">
        <p className="text-lg font-semibold text-black mt-8">Goal</p>
-       <p className="font-medium text-gray-600">The goal of this dashboard is to support project reporting and decision-making by:</p>
-       <span className="font-medium text-gray-600 mt-2">
+       <p className="font-medium text-stone-600">The goal of this dashboard is to support project reporting and decision-making by:</p>
+       <span className="font-medium text-stone-600 mt-2">
         <ul className="list-disc ml-5">
             <li>Providing an at-a-glance overview of allprojects</li>
             <li>Highlighting latest progress, budget utilization, and KPIs</li>
@@ -44,7 +44,7 @@ export default function PMDashboard() {
     {/* Tech Stack */}
      <div className="">
        <p className="text-lg font-semibold text-black mt-8">Tech Stack</p>
-       <span className="font-medium text-gray-600 mt-2">
+       <span className="font-medium text-stone-600 mt-2">
         <ul className="list-disc ml-5">
             <li><span className="tag font-semibold">Tableau</span>: Data modeling, dashboard design, visualization</li>
             <li><span className="tag font-semibold">CSV Data</span>: Raw project data consolidation</li>

@@ -16,7 +16,7 @@ export default function About() {
 
       {/* Page Title */}
       <div className="text-2xl font-semibold mb-10">
-        About Me <span className="text-gray-500">| Life Outside Work</span>
+        About Me <span className="text-stone-500">| Life Outside Work</span>
       </div>
       
       {/* Description */}

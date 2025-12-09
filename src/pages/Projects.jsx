@@ -36,10 +36,8 @@ export default function Projects() {
         >
      
           <div
-            className="project-image"
+            className="project-image bg-cover bg-center"
             style={{ backgroundImage: `url('${project.image}')`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
             height: 260 }}
           />
 

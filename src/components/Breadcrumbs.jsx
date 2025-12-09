@@ -6,7 +6,7 @@ export default function Breadcrumbs() {
   const paths = location.pathname.split("/").filter(Boolean);
 
   return (
-    <nav className="text-sm text-gray-600 mb-4">
+    <nav className="text-sm text-stone-600 mb-4">
       <ol className="flex items-center space-x-2">
         <li>
           <Link to="/" className="breadcrumbs"><House className="w-4 h-4 sm:w-5 sm:h-5"/></Link>
@@ -20,7 +20,7 @@ export default function Breadcrumbs() {
 
           return (
             <li key={url} className="flex items-center">
-              <span className="text-gray-400">/</span>
+              <span className="text-stone-400">/</span>
               <Link
                 to={url}
                 className={`ml-2 capitalize breadcrumbs ${
