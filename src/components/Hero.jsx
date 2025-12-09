@@ -7,37 +7,35 @@ import pmp from "../assets/images/PMP.png"
 export const Hero = () => {
   return (
 
-    <motion.div className="mt-0 sm:mt-10 lg:mt-20 px-10 md:px-18 lg:px-30"
+    <motion.div className="mt-0 sm:mt-10 lg:mt-20 px-0 md:px-0 lg:px-10"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8, delay: 0.2 }}>
       {/* Intro */}
-      <motion.section className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 sm:gap-6 lg:gap-4"
+      <motion.section className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 sm:gap-6 lg:gap-4 px-10 md:px-18 lg:px-30"
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8, delay: 0.4 }}>
         {/* Image + Social Links */}
-        {/* Hero Image */}
-        <div className="w-full h-auto object-cover md:pr-12 lg:pr-34">
-          <div className="flex justify-center mt-8 sm:mt-0">
+        <div className="w-full h-auto object-cover grid grid-cols-1 justify-items-center md:justify-items-start">
+          <div className="mt-8 sm:mt-0 pr-0 sm:pr-6 lg:mr-8">
             <img
               src={profilePhoto}
               alt="Lesley Chang"
               className="hero-image"
             />
-          </div>
-
-          {/* Social Links */}
-          <div className="social-links flex justify-center text-stone-500 text-2xl md:text-3xl">
+             {/* Social Links */}
+          <div className="social-links text-stone-500 text-2xl md:text-3xl flex justify-center">
             <a href="https://www.linkedin.com/in/leschang" target="_blank" className="duration-300 ease-in">
               <i className="fab fa-linkedin"> </i>
             </a>
             <a href="mailto:lesleycch@gmail.com" className="ml-4 duration-300 ease-in"><i className="fas fa-envelope"> </i></a> 
             <a href="https://github.com/lesleycch" target="_blank" className="ml-4 duration-300 ease-in"><i className="fab fa-github"> </i></a>
           </div>
+          </div>
         </div>
 
-        {/* Desc */}
+        {/* Description */}
         <div className="w-full h-auto object-cover">
           <div className="text-base/7 flex flex-col justify-center">
               <div className="pb-6">
