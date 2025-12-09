@@ -7,11 +7,13 @@ import Layout from "./layouts/Layout";
 import Projects from "./pages/Projects";
 import PMDashboard from "./pages/PMDashboard";
 import About from "./pages/About.jsx"
+import ScrollToTop from "./components/ScrollToTop.jsx";
 
 
 createRoot(document.getElementById('root')).render(
-    <StrictMode>
+  <StrictMode>
     <BrowserRouter basename="/portfolio">
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<App />} />

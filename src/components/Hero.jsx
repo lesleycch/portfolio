@@ -7,7 +7,7 @@ import pmp from "../assets/images/PMP.png"
 export const Hero = () => {
   return (
 
-    <motion.div className="hero flex flex-col items-center"
+    <motion.div className="hero flex flex-col items-center px-10 md:px-16"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8, delay: 0.2 }}>
@@ -46,7 +46,7 @@ export const Hero = () => {
                 I design, build, and maintain user-centered SaaS products and am passionate about resource coordination, including streamlining work processes and enhancing team productivity.
               </div>
               <div className="flex justify-center pb-6">
-                <img src={pmp} alt="PMP" className="pmp" />
+                <img src={pmp} alt="PMP" className="pmp rounded-xl " />
               </div>
               <div className="pb-6">
                 I'm a T-shaped professional who enjoys learning new technologies and adapting quickly in this rapidly evolving world.
@@ -73,7 +73,7 @@ export const Hero = () => {
       </motion.section>
 
       {/* Skill Sets */}
-      <motion.section className="code-snippet-container px-10 md:px-18 lg:px-30 mt-8 md:mt-12"
+      <motion.section className="code-snippet-container px-10 md:px-18 lg:px-30 mt-8 md:mt-10"
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8, delay: 0.4 }}>
