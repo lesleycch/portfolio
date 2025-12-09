@@ -7,12 +7,12 @@ import pmp from "../assets/images/PMP.png"
 export const Hero = () => {
   return (
 
-    <motion.div className="mt-0 sm:mt-10 lg:mt-20 px-0 md:px-0 lg:px-10"
+    <motion.div className="mt-0 sm:mt-10 lg:mt-20 px-10 md:px-18 lg:px-30"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8, delay: 0.2 }}>
       {/* Intro */}
-      <motion.section className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 sm:gap-6 lg:gap-4 px-10 md:px-18 lg:px-30"
+      <motion.section className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 sm:gap-6 lg:gap-4 px-0 md:px-0 lg:px-10"
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8, delay: 0.4 }}>
