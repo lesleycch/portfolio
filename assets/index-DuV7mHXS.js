@@ -76,7 +76,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 
   Project Management: {
     methodologies: ["Agile", "Scrum", "Hybrid", "Lean Six Sigma"],
-    skills: ["Data Analysis & Visualization","Roadmap Planning", "Stakeholder Engagement", "Root Cause Analysis"],
+    skills: ["Schedule Management", "Stakeholder Engagement", "Root Cause Analysis", "Data Analysis & Visualization"],
     tools: ["Jira", "Confluence", "Notion", "Microsoft 365", "Google Workspace", "Tableau"]
   },
 
