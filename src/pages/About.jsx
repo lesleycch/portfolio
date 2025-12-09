@@ -25,7 +25,7 @@ export default function About() {
         {/* First Section */}
         <div className="mb-6 mt-8">
         <p className="text-lg font-semibold underline decoration-wavy decoration-2 underline-offset-4 decoration-yellow-500 hover:decoration-yellow-400 pb-6">Community Work & Outdoor Adventures</p>
-        In my free time, I enjoy volunteering to support science outreach events and to help foster warm, welcoming local communities. I also love nature and enjoy exploring national parks, learning about local wildlife, and observing animals thriving in their natural habitats. Every encounter with wildlife brings me genuine joy and leaves a lasting impression.
+        In my free time, I enjoy volunteering to support science and technology outreach events and to help foster warm, welcoming local communities. I also love nature and enjoy exploring national parks, learning about local wildlife and observing animals thriving in their natural habitats. Every encounter with wildlife brings me genuine joy and leaves a lasting impression.
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
     
@@ -50,9 +50,9 @@ export default function About() {
         {/* Second Section */}
         <div className="mt-16">
             <p className="text-lg font-semibold underline decoration-wavy decoration-2 underline-offset-4 decoration-lime-500 hover:decoration-lime-400 pb-6">Sustainability Advocate</p>
-            As an advocate for sustainable living, I promote green growth, responsible consumption, and green architecture that harmonizes with nature. 
+            As an advocate for sustainable living inspired by the United Nations’ Sustainable Development Goals, I promote green growth, responsible consumption, and green architecture that harmonizes with nature.
                 
-            To contribute to United Nations' Sustainable Development Goals, I earned certifications (ISO 14064 & ISO 14067) as a <span className="font-semibold underline decoration-solid decoration-2 underline-offset-4 decoration-lime-800 hover:decoration-lime-700 text-lime-800">Greenhouse Gas Accounting and Verification Specialist </span> and a <a href="https://www.usgbc.org/credentials/leed-green-associate" target="_blank" className="font-semibold underline decoration-solid decoration-2 underline-offset-4 decoration-lime-800 hover:decoration-lime-700 text-lime-800">LEED Green Associate</a>, equipping me to support organizations in their low-carbon transition journeys. Each year, whenever possible, I volunteer as a reviewer for the Taiwan Institute for Sustainable Energy (TAISE), assessing the quality of corporate sustainability reports and offering recommendations that help companies strengthen their sustainability practices.
+            To contribute to these goals, I earned certifications in ISO 14064 and ISO 14067 as a <span className="font-semibold underline decoration-solid decoration-2 underline-offset-4 decoration-lime-800 hover:decoration-lime-600 text-lime-800">Greenhouse Gas Accounting and Verification Specialist</span>, as well as a <a href="https://www.usgbc.org/credentials/leed-green-associate" target="_blank" className="font-semibold underline decoration-solid decoration-2 underline-offset-4 decoration-lime-800 hover:decoration-lime-600 text-lime-800">LEED Green Associate</a>, empowering me to support organizations in their low-carbon transition journeys. Each year, whenever possible, I volunteer as a reviewer for the Taiwan Institute for Sustainable Energy (TAISE), assessing the quality of corporate sustainability reports and offering recommendations to help companies strengthen their sustainability practices.
 
         <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-4 mt-6">
             <img
