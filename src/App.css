@@ -158,9 +158,13 @@ body {
 
 .hero-image {
   width: 100%;         
-  max-width: 320px; /* desired max width on small screens */
+  max-width: 380px; /* desired max width on small screens */
   height: auto; /* preserve aspect ratio */
   object-fit: cover;    
+}
+
+.pmp {
+  max-width: 380px;
 }
 
 

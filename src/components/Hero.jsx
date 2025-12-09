@@ -2,6 +2,7 @@ import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
 import profilePhoto from "../assets/images/profile_pic.png";
 import { motion } from "framer-motion";
+import pmp from "../assets/images/PMP.png"
 
 export const Hero = () => {
   return (
@@ -11,19 +12,18 @@ export const Hero = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8, delay: 0.2 }}>
       {/* Intro */}
-      <motion.section className="hero-container flex justify-center flex-wrap mt-6 md:mt-4"
+      <motion.section className="hero-container flex justify-center flex-wrap mt-8  sm:mt-0 md:mt-0 lg:mt-0"
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8, delay: 0.4 }}>
         {/* Hero Image */}
-        <div className="self-center mx-12 md:mx-18 lg:mx-20">
+        <div className="mx-12 md:mx-18 lg:mx-20 self-center self-start mt-0 sm:mt-10 lg:mt-30">
           <div className="hero-image-container">
             <img
               src={profilePhoto}
               alt="Lesley Chang"
               className="hero-image"
             />
-
           </div>
 
           {/* Social Link */}
@@ -44,6 +44,9 @@ export const Hero = () => {
                 Hi 👋🏻  My name is Lesley Chang. I'm a seasoned <span className="font-semibold underline decoration-wavy decoration-2 underline-offset-4 decoration-cyan-600 hover:decoration-cyan-500">Software Developer</span> and data-driven <span className="font-semibold underline decoration-wavy decoration-2 underline-offset-4 decoration-cyan-600 hover:decoration-cyan-500">PMP®-Certified Project Manager</span> with four years of experience in the tech industry.
 
                 I design, build, and maintain user-centered SaaS products and am passionate about resource coordination, including streamlining work processes and enhancing team productivity.
+              </div>
+              <div className="flex justify-center pb-6">
+                <img src={pmp} alt="PMP" className="pmp" />
               </div>
               <div className="pb-6">
                 I'm a T-shaped professional who enjoys learning new technologies and adapting quickly in this rapidly evolving world.

@@ -59,7 +59,7 @@ export default function About() {
                 
             To contribute to United Nations' Sustainable Development Goals, I earned certifications (ISO 14064 & ISO 14067) as a <span className="font-semibold underline decoration-solid decoration-2 underline-offset-4 decoration-lime-800 hover:decoration-lime-700 text-lime-800">Greenhouse Gas Accounting and Verification Specialist </span> and a <a href="https://www.usgbc.org/credentials/leed-green-associate" target="_blank" className="font-semibold underline decoration-solid decoration-2 underline-offset-4 decoration-lime-800 hover:decoration-lime-700 text-lime-800">LEED Green Associate</a>, equipping me to support organizations in their low-carbon transition journeys. Each year, whenever possible, I volunteer as a reviewer for the Taiwan Institute for Sustainable Energy (TAISE), assessing the quality of corporate sustainability reports and offering recommendations that help companies strengthen their sustainability practices.
 
-            <div class="grid grid-cols-2 gap-2 mt-6">
+        <div class="grid grid-cols-2 gap-2 mt-6">
          <div>  
             <img
               src={sdgs}
@@ -74,13 +74,6 @@ export default function About() {
               className=""
             />
         </div>
-        {/* <div>
-            <img
-              src={startupDay}
-              alt="U.S Taiwan Startup Day"
-              className=""
-            />
-        </div> */}
         </div>
         </div>
 
