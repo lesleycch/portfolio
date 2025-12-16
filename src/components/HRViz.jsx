@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 
-export default function PMViz() {
+export default function HRViz() {
   const containerRef = useRef(null);
 
   useEffect(() => {
@@ -43,16 +43,16 @@ export default function PMViz() {
       ref={containerRef}
     >
       {/* Card container */}
-      <div className="rounded-xl overflow-hidden bg-white p-4 max-w-[1400px] w-full">
+      <div className="rounded-xl overflow-hidden bg-white p-4 max-w-[1366px] w-full">
         <div
-          className="w-full"
+          className="tableauPlaceholder w-full"
           style={{ position: "relative" }}
         >
           <object className="tableauViz" style={{ display: "none" }}>
             <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
             <param name="embed_code_version" value="3" />
             <param name="site_root" value="" />
-            <param name="name" value="PMDashboardReporting/Dashboard" />
+            <param name="name" value="HRReportDashboard_17657919490680/HRReportDashboard" />
             <param name="tabs" value="no" />
             <param name="toolbar" value="yes" />
             <param name="animate_transition" value="yes" />

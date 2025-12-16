@@ -1,5 +1,5 @@
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
+import { coldarkCold } from "react-syntax-highlighter/dist/esm/styles/prism";
 import profilePhoto from "../assets/images/profile_pic.png";
 import { motion } from "framer-motion";
 import pmp from "../assets/images/PMP.png"
@@ -73,17 +73,17 @@ export const Hero = () => {
         transition={{ duration: 0.8, delay: 0.4 }}>
         <div className="code-display">
           <SyntaxHighlighter
-            language="typescript"
+            language="javascript"
             customStyle={{
               margin: 0,
               padding: "2rem",
               height: "100%",
               borderRadius: "20px",
-              background: "rgba(6, 9, 13, 0.8)",
+              background: "#ebebebff",
               backdropFilter: "blur(10px)",
               marginBottom: 50,
             }}
-            style={vscDarkPlus}
+            style={coldarkCold}
           >
             {`My Skill Sets = {
 

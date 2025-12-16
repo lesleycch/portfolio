@@ -1,15 +1,24 @@
 import { Link } from "react-router-dom";
-import PMDashboard from "../assets/images/projects/PM_dashboard.png";
+import PMReport from "../assets/images/projects/PM_report.png";
+import HRReport from "../assets/images/projects/HR_report.png";
 import Breadcrumbs from "../components/Breadcrumbs.jsx";
 
 const projects = [
+    {
+    title: "HR Analytics Dashboard",
+    description:
+      "This Tableau dashboard visualizes key HR metrics such as employee attrition, satisfaction, and demographics. It enables HR teams to track workforce trends, identify areas of high turnover, and make data-driven decisions for talent management.",
+    image: HRReport,
+    tech: ["Tableau", "Dashboard Design", "Project Management", "QA Testing", "SQL", "PostgreSQL", "Functional Validation", "Data Validation"],
+    link: "/projects/HR-dashboard"
+  },
   {
     title: "PM Dashboard Reporting",
     description:
       "Built an interactive Tableau dashboard that transforms raw project data into a clear, actionable decision-making tool, delivering rapid situational insights and facilitating team discussion and decision quality.",
-    image: PMDashboard,
+    image: PMReport,
     tech: ["Tableau", "Dashboard Design", "Project Management"],
-    link: "/projects/PM-dashboard-reporting"
+    link: "/projects/PM-dashboard"
   },
 ];
 

@@ -236,6 +236,12 @@ border: none;
   color: var(--accent-color);
 }
 
+.pdf-wrapper canvas {
+  width: 100% !important;
+  height: auto !important;
+}
+
+
 /* Hero Media Queries */
 
 @media (max-width: 1024px) {
